@@ -1,0 +1,15 @@
+{
+  "_comment": "Manual tabaqah overrides. Highest priority — beats alf_rajul seeds and all inference. Keys are entry indices (the dict key in rijal_database_merged.json). Format per entry: {tabaqah: 1-12, tabaqah_sub: 'senior'|'junior'|null, evidence: 'why this value'}.",
+
+  "6331": {
+    "tabaqah": 7,
+    "tabaqah_sub": null,
+    "evidence": "عبد الرحمان بن أبي هاشم البجلي — يروي عن أبي خديجة (ط٥/ط٦) وعن داود بن فرقد (ط٥) ويروي عنه سهل بن زياد (ط٨) وعلي بن الحسن بن فضال (ط٧). الطبقة المنطقية ط٧. صوت ط٢ في النتيجة الآلية ناتج عن تصادم الأسماء (إبراهيم بن أبي يحيى)."
+  },
+
+  "7819": {
+    "tabaqah": 8,
+    "tabaqah_sub": null,
+    "evidence": "علي بن إبراهيم بن هاشم القمي صاحب التفسير، شيخ الكليني (ط٩، ت ٣٢٩هـ). الطبقة الثامنة موافقة لما عند الخوئي والبروجردي. القيدان ٧٨١٣ و٨٢٨٥ يربطان بهذا المدخل (canonical_entry: 7819)، فتنتشر الطبقة إليهما عبر propagate_to_aliases."
+  }
+}

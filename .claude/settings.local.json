@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python isnad_analyzer.py --isnad \"محمد بن يحيى، عن أحمد بن محمد، عن الوشاء، عن أبان بن عثمان، عن زرارة\")",
+      "Bash(python isnad_analyzer.py --isnad \"عدة من أصحابنا، عن أحمد بن محمد بن خالد، عن ابن فضال، عن ثعلبة بن ميمون، عن زرارة، عن أبي جعفر\")",
+      "Bash(python isnad_analyzer.py --isnad \"علي بن إبراهيم بإسناده عن محمد بن مسلم عن الصادق\")",
+      "Bash(python isnad_analyzer.py --isnad \"محمد بن أحمد عن علي بن الريان عن الرضا\")",
+      "Bash(python isnad_analyzer.py --isnad \"علي بن محمد القاساني عن القاسم بن محمد عن سليمان بن داود المنقري عن حفص بن غياث عن أبي عبدالله\")",
+      "Bash(python -c ':*)",
+      "Bash(python compare_majlisi.py 20)",
+      "Bash(python compare_majlisi.py 100 --failures 8)",
+      "Bash(python compare_majlisi.py 100 --failures 6)",
+      "Bash(python isnad_analyzer.py --isnad \"محمد بن يحيى عن احمد بن محمد عن الحسن بن محبوب عن جميل بن صالح عن محمد بن مسلم عن ابي جعفر\")"
+    ]
+  }
+}

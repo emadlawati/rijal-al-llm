@@ -1,0 +1,17 @@
+al-Mufid entries extracted : 262
+
+Matched (status OK)        : 258
+Wrong status in DB         : 4
+Not found in DB by number  : 0
+
+════════════════════════════════════════════════════════════════════════
+WRONG STATUS — al-Mufid grade differs from DB:
+════════════════════════════════════════════════════════════════════════
+  [   104]  PDF=mamduh           DB=daif          PDF-name: ﺃﺣﻤﺪ ﺑﻦ ﺃﺑﻲ ﺑﺸﺮ ﺍﻟﺴﺮﺍﺝ
+            DB-name: إبراهيم بن إسحاق الأحمري  (key=101)
+  [  7681]  PDF=mamduh           DB=daif          PDF-name: ﺑﻜﺮ ﺑﻦ ﻣﺤﻤﺪ
+            DB-name: عروة بن يحيى  (key=7596)
+  [  3882]  PDF=mamduh           DB=daif          PDF-name: ﺍﻟﺤﺴﻦ ﺑﻦ ﻇﺮﻳﻒ
+            DB-name: الحكم بن عيينة  (key=3831)
+  [  5873]  PDF=mamduh           DB=daif          PDF-name: ﺣﻔﺺ ﺑﻦ ﻋﺎﺻﻢ
+            DB-name: صالح النيلي  (key=5801)

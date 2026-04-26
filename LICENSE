@@ -1,0 +1,46 @@
+MIT License
+
+Copyright (c) 2026 Imad Al-Lawati (HakiNinth)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+────────────────────────────────────────────────────────────────────────────
+DATA NOTICE
+────────────────────────────────────────────────────────────────────────────
+
+The data files distributed with this repository (rijal_database_merged.json,
+alf_rajul_database.json, allBooks.json, mufid_statuses.json, and related
+indices) are derived from classical and modern public Islamic scholarship:
+
+  - al-Mufīd min Muʿjam Rijāl al-Ḥadīth — Muḥammad al-Jawāhirī
+    (a summary of Sayyid Abū al-Qāsim al-Khūʾī's Muʿjam Rijāl al-Ḥadīth)
+  - Muʿjam al-Alf Rajul — Sayyid Ghayth Shubar
+    (anchored in Sayyid Ḥusayn al-Burūjirdī's 12-generation ṭabaqāt system)
+  - The Thaqalayn API hadith corpus (https://www.thaqalayn-api.net)
+
+These works are public Shia scholarship distributed for educational and
+research purposes. Computed values (tabaqah inferences, transmission
+verdicts, chain grades) are produced by the software in this repository and
+are clearly labeled as such; they do not represent the position of any
+classical scholar and require human scholarly review.
+
+The MIT license above applies to the SOFTWARE (Python code, configuration,
+documentation). The DATA is redistributed under the principles of fair use
+for Islamic scholarship. If you use the data in derivative work, please
+preserve attribution to the original authors.
