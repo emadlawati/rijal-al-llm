@@ -264,7 +264,9 @@ def build_resolver_index(db: dict, identities: dict) -> dict:
     indexed_canonicals: set[str] = set()
 
     for entry_key, entry in db.items():
-        canonical_key = entry_to_canonical.get(entry_key, entry_key)
+        # canonical_entry in the DB takes precedence over identities file
+        canonical_key = (entry.get('canonical_entry')
+                         or entry_to_canonical.get(entry_key, entry_key))
 
         # Only index each canonical once (even if it has many aliases)
         # All aliases map to the same canonical

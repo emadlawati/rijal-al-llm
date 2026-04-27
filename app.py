@@ -46,6 +46,7 @@ st.markdown("""
 .narrator-card.daif     { border-right-color: #e74c3c; background: #2a0d0d; }
 .narrator-card.majhul   { border-right-color: #e74c3c; background: #2a0d0d; }
 .narrator-card.unresolved { border-right-color: #95a5a6; background: #1a1a1a; }
+.narrator-card.undet    { border-right-color: #e6a817; background: #1a1500; }
 .narrator-card.virtual  { border-right-color: #9b59b6; background: #1a0f2a; }
 
 /* Status badges */
@@ -65,6 +66,7 @@ st.markdown("""
 .badge-daif       { background: #e74c3c; color: #fff; }
 .badge-majhul     { background: #e74c3c; color: #fff; }
 .badge-unresolved { background: #7f8c8d; color: #fff; }
+.badge-undet      { background: #e6a817; color: #000; }
 .badge-virtual    { background: #9b59b6; color: #fff; }
 .badge-imam       { background: #9b59b6; color: #fff; }
 .badge-mursal     { background: #e67e22; color: #fff; }
@@ -132,7 +134,7 @@ STATUS_LABEL = {
     'muwaththaq':  ('موثّق',     'muwaththaq'),
     'daif':        ('ضعيف',      'daif'),
     'majhul':      ('مجهول',     'majhul'),
-    'unspecified': ('غير محدد',  'unresolved'),
+    'unspecified': ('غير محدد',  'undet'),
 }
 
 def badge(status: str, is_virtual=False, is_imam=False, is_mursal=False) -> str:
